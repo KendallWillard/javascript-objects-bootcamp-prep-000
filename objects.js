@@ -1,8 +1,8 @@
 var playlist = new Object({ACDC: "Back in Black"})
 
-function updatePlaylist(playList, artistName, songTitle) {
-  playList[artistName] = songTitle
-  return playList
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle
+  return playlist
 }
 
 function removeFromPlaylist(playlist, aName) {
